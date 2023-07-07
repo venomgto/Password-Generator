@@ -12,6 +12,7 @@ function questions() {
   do {
     var length = prompt("Choose password length between 8 - 128 characters");
     var askupperLet = confirm("Do you want password to include upper case letters?");
+<<<<<<< HEAD
     var askLowerLet = confirm("Do you want password to include numbers?");
     var askNumbers = confirm("Do you want password to include numbers?");
     var askSpecialCharacteras = confirm("Do you want password to include special characters?");
@@ -49,6 +50,15 @@ function generatePassword() {
 
   }
   return finalPassword;
+=======
+    var askLowerlet = confirm("Do you want password to include numbers?");
+    var askNumbers = confirm("Do you want password to include numbers?");
+    var askSpecialCharacteras = confirm("Do you want password to include special characters?");
+    var
+
+
+  }
+>>>>>>> 6c18c2fc8bf9f36c73e45d9f85164a6959b64384
 }
 // Write password to the #password input
 function writePassword() {
@@ -61,3 +71,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
